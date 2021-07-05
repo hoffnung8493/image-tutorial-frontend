@@ -1,0 +1,40 @@
+.file-dropper {
+  border: 1px dashed black;
+  height: 200px;
+  background-color: bisque;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-dropper input {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.file-dropper:hover {
+  background-color: grey;
+  color: white;
+  transition: 0.5s;
+}
+
+.image-preview {
+  width: 0%;
+  opacity: 0;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+  border: 5px solid grey;
+}
+
+.image-preview-show {
+  width: 75%;
+  opacity: 1;
+  transition: 0.5s;
+}
